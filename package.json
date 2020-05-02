@@ -1,14 +1,21 @@
 {
   "name": "curlcollection",
   "version": "0.1.0",
-  "private": true,
+  "proxy": "http://localhost:8080",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "baseui": "^9.73.1",
+    "body-parser": "^1.19.0",
+    "directory-tree": "^2.2.4",
+    "express": "^4.17.1",
+    "parse-curl-js": "^1.0.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^5.2.7"
   },
   "scripts": {
     "start": "react-scripts start",
