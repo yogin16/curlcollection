@@ -3,7 +3,7 @@ import * as React from "react";
 import { FlexGrid, FlexGridItem } from 'baseui/flex-grid';
 import { Spinner } from "baseui/spinner";
 
-import Card from './components/Card'
+import Well from './components/Well'
 import SideNav from './components/SideNav'
 
 const itemProps = {
@@ -80,7 +80,7 @@ class App extends React.Component {
         </FlexGridItem>
 
         <FlexGridItem {...wideItemProps}>
-          <Card 
+          <Well 
             body={this.getBody()}
           />
         </FlexGridItem>
